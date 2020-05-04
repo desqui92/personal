@@ -1,13 +1,17 @@
 <DOCTYPE html>
 <html>
 <head>
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<script src="js/jquery.js">
-<script src="js/popper.min.js">
-<script src="js/bootstrap.min.js">
+<link href="Vista/css/estilo.css" rel="stylesheet">
+<link href="Vista/css/bootstrap.min.css" rel="stylesheet">
+<script src="Vista/js/jquery.js"></script>
+<script src="Vista/js/popper.min.js"></script>
+<script src="Vista/js/bootstrap.min.js"></script>
+<script src="Vista/js/codigojs.js"></script>
 </head>
 <body>
-<button type="button" class="btn btn-primary">Primary</button>
-Hola
+<?php
+include "Vista/Modulos/Menu.php";
+?>
+
 </body>
 </html>
