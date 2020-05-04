@@ -4,15 +4,15 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent" >
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active colorf" onmouseover="colorfondo();">
-        <a class="nav-link textomenu" href="#">Inicio <span class="sr-only">(current)</span></a>
+      <li  class="nav-item active colorf" onmouseover="colorfondo();" onmouseout="colornormal();" >
+        <a class="nav-link textomenu" href="#">Inicio <span  class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item colorf">
+      <li class="nav-item colorf" onmouseover="colorfondo();" onmouseout="colornormal();">
         <a class="nav-link textomenu" href="#">Nosotros</a>
       </li>
-      <li class="nav-item dropdown colorf">
+      <li class="nav-item dropdown colorf" onmouseover="colorfondo();" onmouseout="colornormal();">
         <a class="nav-link dropdown-toggle textomenu" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Contacto
         </a>
@@ -29,4 +29,5 @@
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
+  <script src="Vista/js/codigojs.js"></script>
 </nav>

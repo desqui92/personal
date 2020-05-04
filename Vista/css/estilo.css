@@ -7,3 +7,13 @@
     font-weight: 1000 !important;
     font-size: 20px !important;
 }
+
+.colorf{
+    padding: 20px;
+}
+
+nav{
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+    margin: 0px;
+}
